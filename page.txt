@@ -1,0 +1,47 @@
+
+<html>
+<head>
+<title>Заголовок документа</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<style>
+
+.node circle 
+{
+	fill: none;
+        stroke: green;
+        stroke-width: 3px;
+}
+
+       
+       
+</style>
+</head>
+<body>
+
+
+<form name="forma1">
+
+
+Проверка выражения и построение дерева.<br><br>
+Вводить можно целые числа и маленькие латинские буквы a-z.<br>
+Возможные операции +, -, *, /, ^.<br>
+При написании выражения учитывается расстановка скобок.<br><br>
+
+
+<input type = "text" id = "field" class = "custom" size = "50"><br><br>
+
+<input type = "button" id = "parse_but" onClick = "Tree()" value = "Построить дерево">
+
+
+
+
+<script language="javascript" type="text/javascript">
+
+</form>
+
+</body>
+</html>
