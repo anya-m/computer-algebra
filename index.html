@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Граф алгебраического выражения</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="scriptt.js"></script>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<style>
+
+.node circle 
+{
+  fill: none;
+        stroke: green;
+        stroke-width: 3px;
+}
+  
+</style>
+</head>
+<body>
+
+<form name="forma1">
+
+Проверка выражения и построение дерева.<br><br>
+Вводить можно целые числа и маленькие латинские буквы a-z.<br>
+Возможные операции +, -, *, /, ^.<br>
+При написании выражения учитывается расстановка скобок.<br><br>
+
+
+<input type = "text" id = "field" class = "custom" size = "70"><br><br>
+
+<input type = "button" id = "parse_but" onClick = "Tree()" value = "Построить дерево">
+
+<input type = "button" onClick = "f()" value = "Сохранить запрос"> <br><br>
+
+
+<a href="http://anya-m.1gb.ru/showhistory.php">История сохраненных запросов</a>
+
+
+<script language="javascript" type="text/javascript">
+
+</form>
+
+</body>
+</html>
